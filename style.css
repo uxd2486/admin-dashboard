@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .grid-container {
     height: 100vh;
     display: grid;
@@ -12,6 +17,11 @@
 
 .sidebar {
     grid-area: sidebar;
+    background-color: cornflowerblue;
+}
+
+.sidebar img {
+    height: 1em;
 }
 
 .content {
